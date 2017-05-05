@@ -1,6 +1,9 @@
 {
-  "new_user": "os.environ['NEW_USER']",
-  "file_name": "Test",
-  "greeting_recipient": "Rob"
+  "project_slug": "Testing",
+  "app_name": "{{cookiecutter.app_name}}",
+  "project_name": "{{cookiecutter.project_name}}",
+  "project_type": "{{cookiecutter.project_type}}",
+  "research_name": "{{cookiecutter.research_name}}",
+  "user_name":  "{{cookiecutter.user_name}}"
 }
 
