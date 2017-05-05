@@ -1,0 +1,6 @@
+{
+  "new_user": "os.environ['NEW_USER']",
+  "file_name": "Test",
+  "greeting_recipient": "Rob"
+}
+
