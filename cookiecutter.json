@@ -1,9 +1,14 @@
 {
   "project_slug": "Testing",
-  "app_name": "{{cookiecutter.app_name}}",
-  "project_name": "{{cookiecutter.project_name}}",
-  "project_type": "{{cookiecutter.project_type}}",
-  "research_name": "{{cookiecutter.research_name}}",
-  "user_name":  "{{cookiecutter.user_name}}"
+  "_copy_without_render": [
+    "*{{cookiecutter.app_name}}",
+    "*{{cookiecutter.project_name}}",
+    "*{{cookiecutter.project_type}}",
+    "*{{cookiecutter.research_name}}",
+    "*{{cookiecutter.user_name}}",
+    "cookiecutter.json",
+    "Biopython Tutorial and Cookbook.pdf",
+    "Bash Beginners Guide.pdf"
+  ]
 }
 
